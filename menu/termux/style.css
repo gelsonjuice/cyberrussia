@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/fundo.jpg');
+}
+
+.container {
+    background-color: blue;
+    height: 150vh;
+    padding: 200px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid blue;
+    text-align: center;
+    background: pink;
+}
+
+
+h1 {
+    font-family: 'lobster', cursive;
+}
+
+.conteudo {
+    padding: 100px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.phish {
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.hacking {
+    border: 1px solid blue;
+    border-radius:15px;
+    margin-left:15px;
+    margin-right: 15px;
+}
+
+.avancados {
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.comandos {
+    border: 1px solid blue;
+    border-radius: 15px;
+}
