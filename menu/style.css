@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    margin: 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: 'lobster', cursive;
+    color: #180F4A;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+}
+
+
+.headline {
+    margin-left: 10%;
+    flex: 50%;
+    /*border: 1px solid black;*/
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /*border: 1px solid pink;*/
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align:center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.contas {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.conta1{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao {
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.botao:hover {
+    border: none;
+    background: #FF2978;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia {
+    font-family:'lobster', cursive;
+     color: white;
+     font-size: 34px;
+}
